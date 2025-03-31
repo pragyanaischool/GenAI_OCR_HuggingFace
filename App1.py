@@ -7,11 +7,11 @@ import requests
 
 # API Configuration
 API_URL = "https://router.huggingface.co/hf-inference/models/impira/layoutlm-invoices"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer ---- add your HF Token ----------"}
 
 client = InferenceClient(
     provider="hf-inference",
-    api_key="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",
+    api_key="---- add your HF Token ----------",
 )
 
 def query(image, question):
