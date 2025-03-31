@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 from huggingface_hub import InferenceClient
 from PIL import Image
 import io
@@ -38,7 +38,7 @@ def process_image(image, question):
     return result[0]['answer']
 
 # Streamlit UI
-st.image("")
+st.image("PragyanAI_Transperent.png")
 st.title("Invoice Question Answering")
 st.write("Upload an invoice image and ask a question.")
 
